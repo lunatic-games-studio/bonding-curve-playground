@@ -26,7 +26,6 @@
     "typeface-roboto": "^0.0.54"
   },
   "scripts": {
-    "install": "install --legacy-peer-deps",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
