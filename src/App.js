@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Typography, Paper, Grid, SvgIcon, IconButton, Button} from '@material-ui/core';
+import {Typography, Paper, Grid, IconButton, Button} from '@material-ui/core';
 import './App.css';
 import CurveInputForm from './components/CurveInputForm';
 import * as math from 'mathjs';
@@ -66,8 +66,6 @@ class App extends Component {
             costOfBuying10Curve,
             costOfSelling5Curve,
             costOfSelling10Curve,
-            traders,
-            appActions
         } = this.props;
 
         let styles = {
