@@ -90,7 +90,7 @@ class App extends Component {
                 <header className="App-header">
                     <Typography variant="h2" style={styles.header}>Bonding Curve Playground</Typography>
                     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"/>
-                    <Button variant={"outlined"} style={styles.linum} href={"https://www.lunaticgamestudio.xyz/"}>An open-source tool created at Lunatic Games Studio with love</Button>
+                    <Button variant={"outlined"} style={styles.linum} href={"https://github.com/lunatic-games-studio/bonding-curve-playground"}>An open-source tool created at Lunatic Games Studio with love</Button>
                     <IconButton arial-label={"GitHub"} href={"https://github.com/lunatic-games-studio/bonding-curve-playground"}>
                     </IconButton>
                 </header>
